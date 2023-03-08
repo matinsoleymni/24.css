@@ -17,11 +17,11 @@
     - [Border None](#border-none)
 7. [Text Align](#text-align)
 8. [Font Size](#font-size)
-9. [Width & Height](#width-&-height)
-9. [User Zoom & User Select](#user-zoom-&-user-select)
+9. [Width & Height](#width--height)
+9. [User Zoom & User Select](#user-zoom--user-select)
 10. [Cursor](#cursor-setting)
 11. [position](#position)
-12. [color](#color-&-backgroundcolor)
+12. [color](#color--backgroundcolor)
 
 # Why-Use-24.css?
 
