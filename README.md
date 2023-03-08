@@ -332,7 +332,7 @@
     dmagenta
 ### }
 
-THE END./
+THE END.
 
 [Blokchainology.com](https://blokchainology.com)<br>
 [Matin soleymani](https://blokchainology.com/team/matinsoleymani)
