@@ -2,8 +2,8 @@
 ## This is a CSS3 Library
 -------
 # Getting Stated 
-- [Why Use 24.css ?](#Why-Use-24.css)
-- [How To Use ?](#How-To-Use?)
+- [Why Use 24.css ?](#Why-Use-24css)
+- [How To Use ?](#How-To-Use)
 - [Features](#Features)
 1. [Display](#Display)
 2. [Flex Setting](#Flex-Setting)
