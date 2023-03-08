@@ -38,6 +38,8 @@
 
 ```HTML
     <link rel="stylesheet" href="https://blokchainology.com/CDN/min24.css">
+    <!--  or    -->
+    <link rel="stylesheet" href="min24.css">
 ```
 
 # Features
