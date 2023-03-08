@@ -334,9 +334,9 @@
 
 THE END./
 
-[Blokchainology.com](https://blkchainology.com)
+[Blokchainology.com](https://blokchainology.com)<br>
 [Matin soleymani](https://blokchainology.com/team/matinsoleymani)
 
 # Make With LOVE For Developers
-ZMAT24
+ZMAT24<br>
 Matin soleymani
