@@ -1,7 +1,9 @@
-# 24.css Version => 1.1.1
-## This is a CSS3 Library
+<link rel="stylesheet" href="./min24.css">
+
+# <h1 class='d-in-block back-dmagenta p-15 orange radius-30'>24.CSS</h1> <span class='pl-20 f-size25 olive'>V.1.2.4</span>
+## This is a <span class='orange'>CSS3</span> Library
 -------
-# Getting Stated 
+# Getting <span class='green'>Started</span> 
 - [Why Use 24.css ?](#Why-Use-24css)
 - [How To Use ?](#How-To-Use)
 - [Features](#Features)
@@ -16,12 +18,17 @@
 6. [Border Radius](#border-radius)
     - [Border None](#border-none)
 7. [Text Align](#text-align)
+8. [Text Decoration](#text-decoration)
 8. [Font Size](#font-size)
 9. [Width & Height](#width--height)
-9. [User Zoom & User Select](#user-zoom--user-select)
-10. [Cursor](#cursor-setting)
-11. [position](#position)
-12. [color](#color--backgroundcolor)
+10. [User Zoom & User Select](#user-zoom--user-select)
+11. [Cursor](#cursor-setting)
+12. [Position](#position)
+13. [Opacity](#opacity)
+14. [Z-index](#z-index)
+15. [Overflow](#overflow)
+16. [colors](#color--backgroundcolor)
+17. [more](#more)
 
 # Why-Use-24.css?
 
@@ -46,15 +53,15 @@
 
 ## Display
 
-| Class Name         | In CSS                               |  Example                     |
-|--------------------|:------------------------------------:|-----------------------------:|
-| d-none             |    `css => display:none;`            | `<button class="d-none">`    |
-| d-flex             |    `css => display:flex;`            | `<button class="d-flex">`    |
-| d-block            |    `css => display:block;`           | `<button class="d-block">`   |
-| d-grid             |    `css => display:grid;`            | `<button class="d-grid">`    |
-| d-in-block         |    `css => display:inline-block;`    | `<button class="d-in-block">`|
-| d-in-flex          |    `css => display:inline-flex;`     | `<button class="d-in-flex">` |
-| d-in-grid          |    `css => display:inline-grid;`     | `<button class="d-in-grid">` |
+| Class Name         | In CSS                               |  Example                       |
+|--------------------|:------------------------------------:|-------------------------------:|
+| d-none             |    `css => display:none;`            | `<div class="d-none"><div>`    |
+| d-flex             |    `css => display:flex;`            | `<div class="d-flex"><div>`    |
+| d-block            |    `css => display:block;`           | `<div class="d-block"><div>`   |
+| d-grid             |    `css => display:grid;`            | `<div class="d-grid"><div>`    |
+| d-in-block         |    `css => display:inline-block;`    | `<div class="d-in-block"><div>`|
+| d-in-flex          |    `css => display:inline-flex;`     | `<div class="d-in-flex"><div>` |
+| d-in-grid          |    `css => display:inline-grid;`     | `<div class="d-in-grid"><div>` |
 
 --------------------------------------------------------------------------------------------
 
@@ -95,7 +102,7 @@
 |--------------------|:----------------------------------------:|---------------------------------------------------:|
 | align-item-c       |  `css => align-items:center;`            |  `<div class="d-flex align-item-c">Zmat24</div>`   |
 | align-item-fs      |  `css => align-items:flex-start;`        |  `<div class="d-flex align-item-fs">Zmat24</div>`  |
-| align-item-fe      |  `css => jalign-item:flex-end`           |  `<div class="d-flex align-item-fe">Zmat24</div>`  |
+| align-item-fe      |  `css => align-item:flex-end`           |  `<div class="d-flex align-item-fe">Zmat24</div>`  |
 <br>
 ----------------------------------------------------------------------------------------------------------------
 
@@ -195,27 +202,27 @@
 ## Border-Radius
 
 ### border radius (5 to 30 px & 10% , 20% , 30% , 50% || -- => %)
-
-| Class Name   | In CSS                            |  Example                      |
-|--------------|:---------------------------------:|------------------------------:|
-| radius-5     |  `css => border-radius:5px;`      |  `<input class="radius-5">`   |
-| radius-10    |  `css => border-radius:10px;`     |  `<input class="radius-10">`  |
-| radius-15    |  `css => border-radius:15px;`     |  `<input class="radius-15">`  |
-| radius-20    |  `css => border-radius:20px;`     |  `<input class="radius-20">`  |
-| radius-25    |  `css => border-radius:25px;`     |  `<input class="radius-25">`  |
-| radius-30    |  `css => border-radius:30px;`     |  `<input class="radius-30">`  |
-| radius--50   |  `css => border-radius:50%;`      |  `<input class="radius--50">` |
-| radius--30   |  `css => border-radius:30%;`      |  `<input class="radius--30 ">`|
-| radius--20   |  `css => border-radius:20%;`      |  `<input class="radius--20 ">`|
-| radius--10   |  `css => border-radius:10%;`      |  `<input class="radius--10 ">`|
+  
+| Class Name   | In CSS                            |  Example                                 | Result                       |
+|--------------|:---------------------------------:|-----------------------------------------:|:----------------------------:|
+| radius-5     |  `css => border-radius:5px;`      |  `<button class="radius-5">24<button>`   | <button class="radius-5">24  |
+| radius-10    |  `css => border-radius:10px;`     |  `<button class="radius-10">24<button>`  | <button class="radius-10">24 |
+| radius-15    |  `css => border-radius:15px;`     |  `<button class="radius-15">24<button>`  | <button class="radius-15">24 |
+| radius-20    |  `css => border-radius:20px;`     |  `<button class="radius-20">24<button>`  | <button class="radius-20">24 |
+| radius-25    |  `css => border-radius:25px;`     |  `<button class="radius-25">24<button>`  | <button class="radius-25">24 |
+| radius-30    |  `css => border-radius:30px;`     |  `<button class="radius-30">24<button>`  | <button class="radius-30">24 |
+| radius--50   |  `css => border-radius:50%;`      |  `<button class="radius--50">24<button>` | <button class="radius--50">24|
+| radius--30   |  `css => border-radius:30%;`      |  `<button class="radius--30 ">24<button>`| <button class="radius--30">24|
+| radius--20   |  `css => border-radius:20%;`      |  `<button class="radius--20 ">24<button>`| <button class="radius--20">24|
+| radius--10   |  `css => border-radius:10%;`      |  `<button class="radius--10 ">24<button>`| <button class="radius--10">24|
 
 ----------------------------------------------------------------------------------------------------
 
 ##  Border-none 
 
-| Class Name    | In CSS                  |  Example                    |
-|---------------|:-----------------------:|----------------------------:|
-| border-n      |  `css => border:none;`  |  `<input class="border-2">` |
+| Class Name    | In CSS                  |  Example                    | Result                                             |
+|---------------|:-----------------------:|----------------------------:|:--------------------------------------------------:|
+| border-n      |  `css => border:none;`  |  `<input class="border-n">` | <input placeholder="border-none" class="border-n"> |
 
 <br>
 ----------------------------------------------------------------------------------------------------
@@ -230,16 +237,26 @@
 <br>
 ----------------------------------------------------------------------------------------------------
 
+## Text-Decoration
+
+| Class Name     | In CSS                             |  Example                                    |  Result                                  |
+|:--------------:|:----------------------------------:|--------------------------------------------:|:----------------------------------------:|
+| txt-dec-n      |  `css => text-decoration:none;`    |  `<p class='txt-dec-n'>Hello Zmat24</p>`    | <p class='txt-dec-n'>Hello Zmat24</p>    |
+| txt-dec-dot    |  `css => text-decoration:dotted  ` |  `<p class='txt-dec-dot'>Hello Zmat24</p>`  | <p class='txt-dec-dot'>Hello Zmat24</p>  |
+| t-xt-dec-uline |  `css => text-decoration:underline`|  `<p class='txt-dec-uline'>Hello Zmat24</p>`| <p class='txt-dec-uline'>Hello Zmat24</p>|
+| t-xt-dec-dash  |  `css => text-decoration:dashed`   |  `<p class='txt-dec-dash'>Hello Zmat24</p>` | <p class='txt-dec-dash'>Hello Zmat24</p> |
+<br>
+----------------------------------------------------------------------------------------------------
+
 ## Font-Size
 
-| Class Name      | In CSS                      |  Example                             |
-|-----------------|:---------------------------:|-------------------------------------:|
-| f-size15        |  `css => font-size:15px;`   |  `<p class="f-size15">Zmat24</p>`    |
-| f-size20        |  `css => font-size:20px;`   |  `<p class="f-size20">Zmat24</p>`    |
-| f-size25        |  `css => font-size:25px;`   |  `<p class="f-size25">Zmat24</p>`    |
-| f-size30        |  `css => font-size:30px;`   |  `<p class="f-size30">Zmat24</p>`    |
-| f-size35        |  `css => font-size:35px;`   |  `<p class="f-size35">Zmat24</p>`    |
-| f-size-large    |  `css => font-size:large;`  |  `<p class="f-size-large">Zmat24</p>`|
+| Class Name      | In CSS                      |  Example                             | Result                             |
+|-----------------|:---------------------------:|-------------------------------------:|:----------------------------------:|
+| f-size15        |  `css => font-size:15px;`   |  `<p class="f-size15">Zmat24</p>`    | <p class="f-size15">Zmat24</p>     |
+| f-size20        |  `css => font-size:20px;`   |  `<p class="f-size20">Zmat24</p>`    | <p class="f-size20">Zmat24</p>     |
+| f-size25        |  `css => font-size:25px;`   |  `<p class="f-size25">Zmat24</p>`    | <p class="f-size25">Zmat24</p>     |
+| f-size30        |  `css => font-size:30px;`   |  `<p class="f-size30">Zmat24</p>`    | <p class="f-size30">Zmat24</p>     |
+| f-size35        |  `css => font-size:35px;`   |  `<p class="f-size35">Zmat24</p>`    | <p class="f-size35">Zmat24</p>     |
 
 
 -----------------------------------------------------------------------------------------------------
@@ -273,25 +290,79 @@
 ## Cursor-Setting
 ### Custom User Cursor
 
-| Class Name  | In CSS                      |  Example                                 |
-|-------------|:---------------------------:|-----------------------------------------:|
-| cursor-p    |  `css => cursor:pointer;`   |  `<div class="cursor-p">Zmat24</div>`    |
-| cursor-a    |  `css => cursor:auto;`      |  `<div class="cursor-a">Zmat24</div>`    |
-| cursor-d    |  `css => cursor:defult;`    |  `<div class="cursor-d">Zmat24</div>`    |
-| cursor-off  |  `css => cursor:none;`      |  `<div class="cursor-off">Zmat24</div>`  |
+| Class Name  | In CSS                      |  Example                                      |  Result                           |
+|-------------|:---------------------------:|----------------------------------------------:|:---------------------------------:|
+| cursor-p    |  `css => cursor:pointer;`   |  `<button class="cursor-p">Zmat24</button>`   | <button class="cursor-p">Zmat24   |
+| cursor-a    |  `css => cursor:auto;`      |  `<button class="cursor-a">Zmat24</button>`   | <button class="cursor-a">Zmat24   |
+| cursor-d    |  `css => cursor:defult;`    |  `<button class="cursor-d">Zmat24</button>`   | <button class="cursor-d">Zmat24   |
+| cursor-off  |  `css => cursor:none;`      |  `<button class="cursor-off">Zmat24</button>` | <button class="cursor-off">Zmat24 |
 
 ---------------------------------------------------------------------------------------------------
 
 ## Position
 
-| Class Name    | In CSS                        |  Example                                   |
-|---------------|:-----------------------------:|-------------------------------------------:|
-| position-ab   |  `css => position:absolute;`  |  `<div class="position-ab">Zmat24</div>`   |
-| position-fix  |  `css => position:fixed; `    |  `<div class="position-fix">Zmat24</div>`  |
-| position-rel  |  `css => position:relative;`  |  `<div class="position-rel">Zmat24</div>`  |
-| position-st   |  `css => position:static;`    |  `<div class="position-st">Zmat24</div>`   |
+| Class Name      | In CSS                          |  Example                                   |
+|:---------------:|:-------------------------------:|:------------------------------------------:|
+| position-ab     |  `css => position:absolute;`    |  `<div class="position-ab">Zmat24</div>`   |
+| position-fix    |  `css => position:fixed; `      |  `<div class="position-fix">Zmat24</div>`  |
+| position-rel    |  `css => position:relative;`    |  `<div class="position-rel">Zmat24</div>`  |
+| position-st     |  `css => position:static;`      |  `<div class="position-st">Zmat24</div>`   |
 
 --------------------------------------------------------------------------------------------------
+
+## Opacity
+
+
+| Class Name  | In CSS                    |  Example                       | Result                                             |
+|:-----------:|:-------------------------:|:------------------------------:|:--------------------------------------------------:|
+| opc-0       |  `css => opacity:0;`      |  `<img src='' class="opc-0">`  | <img src='./logo.png' class='opc-0' width='100px'> |
+| opc-1       |  `css => opacity:0.1;`    |  `<img src='' class="opc-1">`  | <img src='./logo.png' class='opc-1' width='100px'> |
+| opc-2       |  `css => opacity:0.2;`    |  `<img src='' class="opc-2">`  | <img src='./logo.png' class='opc-2' width='100px'> |
+| opc-3       |  `css => opacity:0.3;`    |  `<img src='' class="opc-3">`  | <img src='./logo.png' class='opc-3' width='100px'> |
+| opc-4       |  `css => opacity:0.4;`    |  `<img src='' class="opc-4">`  | <img src='./logo.png' class='opc-4' width='100px'> |
+| opc-5       |  `css => opacity:0.5;`    |  `<img src='' class="opc-5">`  | <img src='./logo.png' class='opc-5' width='100px'> |
+| opc-6       |  `css => opacity:0.6;`    |  `<img src='' class="opc-6">`  | <img src='./logo.png' class='opc-6' width='100px'> |
+| opc-7       |  `css => opacity:0.7;`    |  `<img src='' class="opc-7">`  | <img src='./logo.png' class='opc-7' width='100px'> |
+| opc-8       |  `css => opacity:0.8;`    |  `<img src='' class="opc-8">`  | <img src='./logo.png' class='opc-8' width='100px'> |
+| opc-9       |  `css => opacity:0.9;`    |  `<img src='' class="opc-9">`  | <img src='./logo.png' class='opc-9' width='100px'> |
+| opc-10      |  `css => opacity:1;`      |  `<img src='' class="opc-10">` | <img src='./logo.png' class='opc-10' width='100px'>|
+--------------------------------------------------------------------------------------------------
+
+## Z-index
+
+
+| Class Name | In CSS                    |  Example                       |
+|:----------:|:-------------------------:|:------------------------------:|
+| z-1        |  `css => z-index:0;`      |  `<img src='' class="z-1"`     |
+| z-2        |  `css => z-index:0.1;`    |  `<img src='' class="z-2">`    |
+| z-3        |  `css => z-index:0.2;`    |  `<img src='' class="z-3">`    |
+| z-24       |  `css => z-index:0.3;`    |  `<img src='' class="z-24">`   |
+| z-999      |  `css => z-index:0.4;`    |  `<img src='' class="z-999">`  |
+| z--1       |  `css => z-index:0.5;`    |  `<img src='' class="z--1">`   |
+| z--2       |  `css => z-index:0.6;`    |  `<img src='' class="z--2">`   |
+| z--3       |  `css => z-index:0.7;`    |  `<img src='' class="z--3">`   |
+| z--24      |  `css => z-index:0.8;`    |  `<img src='' class="z--24">`  |
+| z--999     |  `css => z-index:0.9;`    |  `<img src='' class="z--999">` |
+
+--------------------------------------------------------------------------------------------
+
+## Overflow
+
+
+| Class Name     | In CSS                         |  Example                               |
+|:--------------:|:------------------------------:|:--------------------------------------:|
+| over-hidden    |  `css => overflow: hidden;`    |  `<img src='' class="over-hidden"`     |
+| over-y-hidden  |  `css => overflow-y: hidden;`  |  `<img src='' class="over-y-hidden">`  |
+| over-x-hidden  |  `overflow-x: hidden;`         |  `<img src='' class="over-x-hidden">`  |
+| over-auto      |  `css => overflow: auto;`      |  `<img src='' class="over-auto">`      |
+| over-y-auto    |  `overflow-y: auto;`           |  `<img src='' class="over-y-auto">`    |
+| over-x-auto    |  `overflow-x: auto;`           |  `<img src='' class="over-x-auto>`     |
+| over-scroll    |  `css => overflow: scroll;`    |  `<img src='' class="over-scroll">`    |
+| over-y-scroll  |  `css => overflow-y: scroll;`  |  `<img src='' class="over-y-scroll">`  |
+| over-x-scroll  |  `css => overflow-x: scroll;`  |  `<img src='' class="over-x-scroll">`  |
+
+--------------------------------------------------------------------------------------------
+
 
 ## Color-&-backgroundcolor
 
@@ -331,6 +402,14 @@
     cyan
     dmagenta
 ### }
+
+## more
+<p>More options :) </p>
+
+| Class Name    | In CSS                        |  Example                                   |
+|---------------|:-----------------------------:|-------------------------------------------:|
+| list-n        |  `css => list-style:none;`    |  `<ul class="list-n"></ul>`                |
+
 
 THE END.
 
