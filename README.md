@@ -48,7 +48,7 @@
     <!--  or    -->
     <link rel="stylesheet" href="min24.css">
 ```
-
+### Warning :: This library reset defult margin and padding 
 # Features
 
 ## Display
