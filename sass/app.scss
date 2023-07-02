@@ -42,7 +42,7 @@
     }
 }
 
-.hov-browm {
+.hov-brown {
     @include p-transition;
     :hover {
         color: $brown;
@@ -102,6 +102,110 @@
     @include p-transition;
     :hover {
         color: $dmagenta;
+        @include p-transition;
+    }
+}
+
+.hov-back-red {
+    @include p-transition;
+    :hover {
+        background-color: $red;
+        @include p-transition;
+    }
+}
+
+.hov-back-green {
+    @include p-transition;
+    :hover {
+        background-color: $green;
+        @include p-transition;
+    }
+}
+
+.hov-back-yellow {
+    @include p-transition;
+    :hover {
+        background-color: $yellow;
+        @include p-transition;
+    }
+}
+
+.hov-back-blue {
+    @include p-transition;
+    :hover {
+        background-color: $blue;
+        @include p-transition;
+    }
+}
+
+.hov-back-tan {
+    @include p-transition;
+    :hover {
+        background-color: $tan;
+        @include p-transition;
+    }
+}
+
+.hov-back-brown {
+    @include p-transition;
+    :hover {
+        background-color: $brown;
+        @include p-transition;
+    }
+}
+
+.hov-back-gray {
+    @include p-transition;
+    :hover {
+        background-color: $gray;
+        @include p-transition;
+    }
+}
+
+.hov-back-purple {
+    @include p-transition;
+    :hover {
+        background-color: $purple;
+        @include p-transition;
+    }
+}
+
+.hov-back-pink {
+    @include p-transition;
+    :hover {
+        color: $pink;
+        @include p-transition;
+    }
+}
+
+.hov-back-olive {
+    @include p-transition;
+    :hover {
+        background-color: $olive;
+        @include p-transition;
+    }
+}
+
+.hov-back-cadetblue {
+    @include p-transition;
+    :hover {
+        background-color: $cadetblue;
+        @include p-transition;
+    }
+}
+
+.hov-back-cyan {
+    @include p-transition;
+    :hover {
+        background-color: $cyan;
+        @include p-transition;
+    }
+}
+
+.hov-back-dmagenta {
+    @include p-transition;
+    :hover {
+        background-color: $dmagenta;
         @include p-transition;
     }
 }

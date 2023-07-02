@@ -28,7 +28,8 @@
 14. [Z-index](#z-index)
 15. [Overflow](#overflow)
 16. [colors](#color--backgroundcolor)
-17. [more](#more)
+17. [Hover](#hover)
+18. [more](#more)
 
 # Why-Use-24.css?
 
@@ -402,6 +403,21 @@
     cyan
     dmagenta
 ### }
+
+
+# Hover
+
+| Class Name     | Example                         |
+|:--------------:|:-------------------------------:|
+| hov-red        | `<p class="hov-red">24</p>`     |
+| hov-green      | `<p class="hov-green">24</p>`   |
+| over-x-hidden  | `<p class="hov-red">24</p>`  |
+| over-auto      | `<img src='' class="over-auto">`      |
+| over-y-auto    | `<img src='' class="over-y-auto">`    |
+| over-x-auto    | `<img src='' class="over-x-auto>`     |
+| over-scroll    | `<img src='' class="over-scroll">`    |
+| over-y-scroll  | `<img src='' class="over-y-scroll">`  |
+| over-x-scroll  | `<img src='' class="over-x-scroll">`  |
 
 ## more
 <p>More options :) </p>
