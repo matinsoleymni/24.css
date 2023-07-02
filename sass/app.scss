@@ -1,0 +1,196 @@
+@import "defult";
+@import "var";
+
+
+.hov-red {
+    @include p-transition;
+    :hover {
+        color: $red;
+        @include p-transition;
+    }
+}
+
+.hov-green {
+    @include p-transition;
+    :hover {
+        color: $green;
+        @include p-transition;
+    }
+}
+
+.hov-yellow {
+    @include p-transition;
+    :hover {
+        color: $yellow;
+        @include p-transition;
+    }
+}
+
+.hov-blue {
+    @include p-transition;
+    :hover {
+        color: $blue;
+        @include p-transition;
+    }
+}
+
+.hov-tan {
+    @include p-transition;
+    :hover {
+        color: $tan;
+        @include p-transition;
+    }
+}
+
+.hov-browm {
+    @include p-transition;
+    :hover {
+        color: $brown;
+        @include p-transition;
+    }
+}
+
+.hov-gray {
+    @include p-transition;
+    :hover {
+        color: $gray;
+        @include p-transition;
+    }
+}
+
+.hov-purple {
+    @include p-transition;
+    :hover {
+        color: $purple;
+        @include p-transition;
+    }
+}
+
+.hov-pink {
+    @include p-transition;
+    :hover {
+        color: $pink;
+        @include p-transition;
+    }
+}
+
+.hov-olive {
+    @include p-transition;
+    :hover {
+        color: $olive;
+        @include p-transition;
+    }
+}
+
+.hov-cadetblue {
+    @include p-transition;
+    :hover {
+        color: $cadetblue;
+        @include p-transition;
+    }
+}
+
+.hov-cyan {
+    @include p-transition;
+    :hover {
+        color: $cyan;
+        @include p-transition;
+    }
+}
+
+.hov-dmagenta {
+    @include p-transition;
+    :hover {
+        color: $dmagenta;
+        @include p-transition;
+    }
+}
+
+.hov-rad-5 {
+    @include p-transition;
+    :hover {
+        border-radius: $radius-5;
+        @include p-transition;
+    }
+}
+
+.hov-rad-10 {
+    @include p-transition;
+    :hover {
+        border-radius: $radius-10;
+        @include p-transition;
+    }
+}
+
+.hov-rad-15 {
+    @include p-transition;
+    :hover {
+        border-radius: $radius-15;
+        @include p-transition;
+    }
+}
+
+.hov-rad-20 {
+    @include p-transition;
+    :hover {
+        border-radius: $radius-20;
+        @include p-transition;
+    }
+}
+
+
+.hov-rad-25 {
+    @include p-transition;
+    :hover {
+        border-radius: $radius-25;
+        @include p-transition;
+    }
+}
+
+.hov-rad-30 {
+    @include p-transition;
+    :hover {
+        border-radius: $radius-30;
+        @include p-transition;
+    }
+}
+
+.hov-rad--10 {
+    @include p-transition;
+    :hover {
+        border-radius: $radius--10;
+        @include p-transition;
+    }
+}
+
+.hov-rad--20 {
+    @include p-transition;
+    :hover {
+        border-radius: $radius--20;
+        @include p-transition;
+    }
+}
+
+.hov-rad--30 {
+    @include p-transition;
+    :hover {
+        border-radius: $radius-30;
+        @include p-transition;
+    }
+}
+
+.hov-rad--40 {
+    @include p-transition;
+    :hover {
+        border-radius: $radius--40;
+        @include p-transition;
+    }
+}
+
+.hov-rad--50 {
+    @include p-transition;
+    :hover {
+        border-radius: $radius--50;
+        @include p-transition;
+    }
+}
